@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nodira Kazakova - Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="page">
+
+    <div id="header">
+      <h1>Nodira Kazakova</h1>
+      <p class="tagline">Backend software engineer &middot; Data analyst</p>
+    </div>
+
+    <div id="body">
+
+      <div id="sidebar">
+        <ul id="nav">
+          <li><a href="#summary">Short Summary</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#leadership">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div id="actions">
+          <h3>Get a copy</h3>
+          <ul>
+            <li><a href="Nodira_Kazakova_Resume.pdf" id="pdf-link" download>Download PDF</a></li>
+            <li><a href="Nodira_Kazakova_Resume.docx" id="doc-link">Download Word (.doc)</a></li>
+            <li><a href="#" id="print-link">Print this page</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="content">
+        <div id="resume-content">
+
+          <h2 id="summary">Short Summary</h2>
+          <p>
+			Data Science graduate student with a B.S. in Computer Science (Magna Cum Laude). 
+			Software engineering intern with one year of backend experience in 
+			C#, ASP.NET Core, and SQL Server, including CI/CD and deployment.
+          </p>
+
+          <h2 id="experience">Experience</h2>
+
+          <div class="entry">
+            <h3>Data analyst and Program Manager</h3>
+            <p class="meta">Literacy of Northern New York (Adult Education) &middot; 09/01/2026 &ndash; Present</p>
+            <ul>
+              <li>Analyze learner demographics, attendance, and pre- and post-test results in Excel to track progress, support grant reporting, and design targeted recruitment and retention strategies</li>
+              <li>Maintain and reconcile student records in ASISTS, the state adult education database</li>
+            </ul>
+          </div>
+          
+          <div class="entry">
+            <h3>Software Engineering Intern (Backend / TechOps)</h3>
+            <p class="meta">TransPerfect &middot; 06/15/2025 &ndash; 07/01/2026</p>
+            <ul>
+              <li>Design and build RESTful APIs in ASP.NET Core MVC using Clean Architecture, the Repository Pattern, and dependency injection</li>
+              <li>Configure Azure DevOps CI/CD pipelines and monitor application health with Kibana dashboards and custom health-check endpoints.</li>
+              <li>Manage SQL Server databases through Entity Framework Core, including migrations and query optimization, and added Redis caching to reduce database load and improve response times.</li>
+			  <li>Participate in Agile sprints and code reviews focused on performance, security, and API design.</li>
+
+		   </ul>
+          </div>
+          
+          <div class="entry">
+            <h3>Computer Science Tutor | LIU Post</h3> 
+			<p class="meta">&middot; 09/01/2023 &ndash; 05/13/2025</p>
+            <ul>
+              <li>Tutored my peers in computer science related courses such as Game Developemnt, Database Management, Object Oriended Programming.</li>
+            </ul>
+          </div>
+		  
+		  <div class="entry">
+            <h3>Intern, Office of External Affairs | LIU Post</h3> 
+			<p class="meta">&middot; Summer of 2023</p>
+            <ul>
+              <li>Supported the Director of External Affairs with partner outreach, scheduling, and spreadsheet and administrative work.</li>
+			  <li>Helped organize student trips and was one of 5 students selected to attend two United Nations events, including a conference on climate change.</li>
+            </ul>
+          </div>
+
+          <h2 id="education">Education</h2>
+		  <div class="entry">
+            <h3>M.S in Data Science</h3>
+            <p class="meta">Bellevue University &middot; 2026 - Present</p>
+          </div>
+		  
+          <div class="entry">
+            <h3>B.S. in Computer Science</h3>
+            <p class="meta">Long Island University, Post Campus &middot; 2022 - 2026</p>
+            <ul>
+              <li>GPA: 3.9, Magna Cum Laude</li>
+              <li>Presidential Full-Tuition Scholarship</li>
+            </ul>
+          </div>
+
+          <h2 id="skills">Technical Skills</h2>
+          <table class="skills">
+            <tr><th>Languages</th><td>Python for Data science, C#</td></tr>
+            <tr><th>Frameworks</th><td>ASP.NET Core MVC, Entity Framework Core</td></tr>
+            <tr><th>Data</th><td>SQL Server, Redis, Pandas, NumPy, Matplotlib, Scikit-learn</td></tr>
+            <tr><th>DevOps</th><td>Docker, Nginx, Azure DevOps CI/CD, VPS deployment, DNS/TLS configuration</td></tr>
+          </table>
+
+          <h2 id="projects">Projects</h2>
+         
+		   <div class="entry">
+            <h3>PeopleBonder, Telegram Bot</h3>
+            <p class="meta">.NET, Docker, Nginx, Hetzner VPS &middot; 2025</p>
+            <ul>
+              <li>Deployed a .NET bot to a Hetzner VPS, configuring DNS records, a TLS certificate, and Nginx to route webhook traffic to the application.</li>
+              <li>Implemented command handling, scheduled daily question delivery, secrets management, and persistent state.</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <h3>Banking System API</h3>
+            <p class="meta">C#, ASP.NET Core, EF Core, SQL Server, Docker, JWT &middot; 2024&ndash;2025</p>
+            <ul>
+              <li>Built a RESTful API through four progressive stages, from a console app to the Repository Pattern with an external currency API integration.</li>
+              <li>Added JWT authentication, pagination, sorting, filtering, CSV content negotiation, Swagger documentation, and a Dockerized SQL Server.</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <h3>Study Tracker App</h3>
+            <p class="meta">ASP.NET Core MVC, EF Core, SQL Server, Docker &middot; 2025</p>
+            <ul>
+              <li>Built a full-stack CRUD application with dynamic filtering, sorting, and pagination, containerized with Docker Compose.</li>
+              <li>Documented the API with Swagger. Source: <a href="https://github.com/kazakovanodira/StudyTracker_Level1">github.com/kazakovanodira/StudyTracker_Level1</a></li>
+            </ul>
+          </div>
+
+          <h2 id="leadership">Languages</h2>
+           <ul>
+              <li>Russian - native</li>
+			  <li>English - fluent</li>
+			  <li>Uzbek - native</li>
+			  <li>Kazakh - native</li>
+			  <li>Ukrainian - speaking and listening only</li>
+			  <li>Turkish - speaking and listening only</li>
+           </ul>
+
+          <h2 id="contact">Contact</h2>
+          <p>
+            Email: kazakovanodira04@gmail.com<br>
+            Phone: (516) 234-9545<br>
+            Location: New York, US<br>
+            LinkedIn: <a href="https://github.com/kazakovanodira/StudyTracker_Level1">https://www.linkedin.com/in/kazakovanodira/</a><br>
+            GitHub: https://github.com/kazakovanodira?tab=repositories
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer">&copy; <span id="year"></span> Nodira Kazakova</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
